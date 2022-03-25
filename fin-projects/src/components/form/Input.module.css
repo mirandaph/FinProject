@@ -1,0 +1,39 @@
+.form_control {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+}
+
+.form_control label {
+    color: #00aeff;
+    margin-bottom: 0.6em;
+    font-weight: 500;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.form_control input {
+    padding: 0.7em;
+    border-radius: 0;
+    border: none;
+    outline: none;
+}
+
+.form_control input::placeholder {
+    color: grey;
+    text-align: center;
+}
+
+.form_control input:focus::placeholder {
+    color: transparent;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}

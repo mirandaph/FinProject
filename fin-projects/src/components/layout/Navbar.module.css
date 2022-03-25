@@ -1,0 +1,34 @@
+.title {
+    color: #2c2c2c;
+}
+
+.span {
+    color: #00aeff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.item {
+    margin-right: 1em;
+}
+
+.item a {
+    color: #2c2c2c;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.item a:hover {
+    color: #00aeff;
+    text-decoration: none;
+}

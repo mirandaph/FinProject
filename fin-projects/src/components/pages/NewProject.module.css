@@ -1,0 +1,16 @@
+.newproject_container {
+    width: 450px;
+    margin: 0 auto;
+    padding: 3em;
+}
+
+.newproject_container h1 {
+    color: #00aeff;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+.newproject_container p {
+    margin-bottom: 0.5em;
+    text-align: center;
+}
