@@ -15,7 +15,7 @@ function Footer() {
                     <a href='/'> <h3> LinkedIn <FaLinkedin/> </h3> </a>
                 </li>
             </ul>
-            <p className={styles.copy_right}>FinProjects &copy; 2022 </p>
+            <p className={styles.copy_right}>FinProject  &copy; 2022 </p>
         </footer>
     )
 }

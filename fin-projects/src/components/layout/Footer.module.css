@@ -34,6 +34,7 @@
 .social_list a {
     text-decoration: none;
     color: #2c2c2c;
+    transition: 0.5s;
 }
 
 .social_list a:hover {

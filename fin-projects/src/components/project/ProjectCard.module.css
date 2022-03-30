@@ -1,0 +1,101 @@
+.project_card {
+    padding: 1em;
+    border: 1px solid #202020;
+    border-radius: 4px;
+    width: 23%;
+    margin-right: 22px;
+    margin-bottom: 50px;
+  }
+  
+  .project_card h4 {
+    background-color: #202020;
+    color: #00aeff;
+    text-align: center;
+    padding: 0.3em;
+    margin-bottom: 1.3em;
+    font-size: 1.2em;
+  }
+  
+  .project_card p {
+    color: #404040;
+    margin-bottom: 1em;
+  }
+  
+  .project_card p span {
+    font-weight: bold;
+  }
+  
+  .category_text {
+    display: flex;
+    align-items: center;
+  }
+  
+  .category_text span {
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #00aeff;
+    margin-right: 5px;
+  }
+  
+  .category_text .planejamento {
+    background-color: #ffd651;
+  }
+  
+  .category_text .desenvolvimento {
+    background-color: #5efffa;
+  }
+  
+  .category_text .infraestrutura {
+    background-color: #8468ff;
+  }
+  
+  .category_text .design {
+    background-color: #ff6ff8;
+  }
+
+  .category_text .marketing {
+    background-color: #ff4a4a;
+  }
+
+  .category_text .equipe {
+    background-color: #ff9456;
+  }
+
+  .category_text .vendas {
+    background-color: #5eff5e;
+  }
+  
+  .project_card_actions {
+    margin-top: 1.2em;
+    display: flex;
+    align-items: center;
+  }
+  
+  .project_card_actions a,
+  .project_card_actions button {
+    text-decoration: none;
+    border: none;
+    background-color: #ffffff;
+    color: #202020;
+    font-size: 0.9em;
+    padding: 0.5em 1em;
+    margin-right: 1em;
+    cursor: pointer;
+    border: 1px solid #202002;
+    transition: 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .project_card_actions svg {
+    margin-right: 0.5em;
+  }
+  
+  .project_card_actions a:hover,
+  .project_card_actions button:hover {
+    background-color: #202020;
+    color: #00aeff;
+  }

@@ -1,11 +1,81 @@
 {
   "projects": [
     {
-      "name": "Pedro",
-      "budget": "10",
+      "name": "Planejamento",
+      "budget": "1000",
+      "category": {
+        "id": "1",
+        "name": "Planejamento"
+      },
       "cost": 0,
       "services": [],
       "id": 1
+    },
+    {
+      "name": "Desenvolvimento",
+      "budget": "2000",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 2
+    },
+    {
+      "name": "Infraestrutura",
+      "category": {
+        "id": "3",
+        "name": "Infraestrutura"
+      },
+      "budget": "3000",
+      "cost": 0,
+      "services": [],
+      "id": 3
+    },
+    {
+      "name": "Design",
+      "budget": "4000",
+      "category": {
+        "id": "4",
+        "name": "Design"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 4
+    },
+    {
+      "category": {
+        "id": "5",
+        "name": "Marketing"
+      },
+      "name": "Marketing",
+      "budget": "5000",
+      "cost": 0,
+      "services": [],
+      "id": 5
+    },
+    {
+      "category": {
+        "id": "6",
+        "name": "Equipe"
+      },
+      "name": "Equipe",
+      "budget": "6000",
+      "cost": 0,
+      "services": [],
+      "id": 6
+    },
+    {
+      "category": {
+        "id": "7",
+        "name": "Vendas"
+      },
+      "name": "Vendas",
+      "budget": "7000",
+      "cost": 0,
+      "services": [],
+      "id": 7
     }
   ],
   "categories": [
