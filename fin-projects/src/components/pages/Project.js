@@ -5,6 +5,7 @@ import Container from '../layout/Container'
 
 import { useParams } from 'react-router-dom'
 import { useState, useEffect } from 'react'
+import ProjectForm from '../project/ProjectForm'
 
 function Project() {
     const {id} = useParams()
@@ -28,6 +29,26 @@ function Project() {
           300,
         )
       }, [id])
+
+      function editPost(project) {
+        if (project.budget < project.cost) {
+          alert('O Orçamento não pode ser menor que o custo do projeto!')
+          return false
+        }
+    
+        fetch(`http://localhost:5000/projects/${project.id}`, {
+          method: 'PATCH',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(project),
+        })
+          .then((resp) => resp.json())
+          .then((data) => {
+            setProject(data)
+            setShowProjectForm(!showProjectForm)
+          })
+      }
 
     function toggleProjectForm(){
       setShowProjectForm(!showProjectForm)
@@ -55,7 +76,7 @@ function Project() {
                 </div>
               ) : (
                 <div className={styles.project_info}>
-                  <p>Detalhes do Projeto</p>
+                  <ProjectForm handleSubmit={editPost} btnText="Concluir edição" projectData={project}/>
                 </div>
               )}
           </div>
