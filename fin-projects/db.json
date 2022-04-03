@@ -7,8 +7,15 @@
         "id": "1",
         "name": "Planejamento"
       },
-      "cost": 0,
-      "services": [],
+      "cost": 100,
+      "services": [
+        {
+          "name": "Serviço 1",
+          "cost": "100",
+          "description": "Nenhum",
+          "id": "13fc3ce1-fc1a-49c9-b972-a561251720bc"
+        }
+      ],
       "id": 1
     },
     {
@@ -18,21 +25,8 @@
         "id": "2",
         "name": "Desenvolvimento"
       },
-      "cost": 101,
-      "services": [
-        {
-          "name": "ADS",
-          "cost": "100",
-          "description": "ASD",
-          "id": "ceb6f83d-f35f-442a-938d-1bb49225c96b"
-        },
-        {
-          "name": "asd",
-          "cost": "1",
-          "description": "as",
-          "id": "31d6beba-1fe9-451b-9816-928ff9be0820"
-        }
-      ],
+      "cost": 0,
+      "services": [],
       "id": 2
     },
     {
